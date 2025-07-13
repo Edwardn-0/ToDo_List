@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(242, 243, 244);
+}
+
+.main-title{
+    color:black; 
+    font-size: 45px;
+    text-align: center;
+}
+
+.todo-container{
+    text-align: center;
+}
+
+#todo-input{
+    width: 200px;
+    height: 15px;
+}
+
+#todo-add{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 38, 255, 0.26);
+    width: 50px;
+    height: 25px;
+}
+
+.todo-dos{
+    font-size: 25px;
+}

@@ -22,3 +22,10 @@ addToDo.addEventListener('click',function(){
         todolist.removeChild(list);
     })
 })
+
+//엔터키 입력 추가 코드
+inputbox.addEventListener('keydown', (event) =>{
+    if (event.key === 'Enter'){
+        addToDo.click();
+    }
+})
