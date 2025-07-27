@@ -5,7 +5,7 @@ const todolist = document.getElementById('todo-list');  //목록에 추가
 //localstorage에 저장된 내용을 화면에 띄우기&기존 list와 연결
 window.onload = function() {
     const savedList = JSON.parse(localStorage.getItem('todos')) || [];
-    savedList.foreach((item) => {
+    savedList.forEach((item) => {
         createListElement(item);
     });
 };
